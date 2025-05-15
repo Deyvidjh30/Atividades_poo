@@ -35,20 +35,20 @@
 
 
 # questão 4:
-class Agua():
-	def _init_(self):
-		self.mes = 0
-		self.ano = 0
-		self.consumo = 0
+# class Agua():
+# 	def _init_(self):
+# 		self.mes = 0
+# 		self.ano = 0
+# 		self.consumo = 0
 
-	def calc_consumo(self):
-		self.consumo = input()
-		if self.consumo <= 10:
-			self.custo = 38
-		elif self.consumo > 10 and self.consumo <= 20:
-			for i in range(self.consumo-10):
-				self.custo += 5
-			self.custo += 38
+# 	def calc_consumo(self):
+# 		self.consumo = input()
+# 		if self.consumo <= 10:
+# 			self.custo = 38
+# 		elif self.consumo > 10 and self.consumo <= 20:
+# 			for i in range(self.consumo-10):
+# 				self.custo += 5
+# 			self.custo += 38
 
 
 
